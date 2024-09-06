@@ -45,7 +45,7 @@ body {
 ._1st-child {
   background-color: #16a085;
   margin-right: 0px;
-  animation: loading 2s linear forwards;
+  animation: loading 2.5s ease-in-out forwards;
 }
 
 ._2nd-child {
@@ -57,20 +57,45 @@ body {
     margin-right: 0%;
   }
 
-  25% {
+  10% {
+    margin-right: 5%;
+  }
+
+  20% {
     margin-right: 10%;
   }
 
-  35% {
-    margin-right: 0%;
+  30% {
+    margin-right: 8%;
   }
 
-  45% {
+  40% {
+    margin-right: 15%;
+  }
+
+  50% {
+    margin-right: 12%;
+  }
+
+  60% {
     margin-right: 20%;
+  }
+
+  70% {
+    margin-right: 50%;
+  }
+
+  80% {
+    margin-right: 75%;
+  }
+
+  90% {
+    margin-right: 90%;
   }
 
   100% {
     margin-right: 100%;
+    opacity: 0;
     visibility: hidden;
   }
 }
