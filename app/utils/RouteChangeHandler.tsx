@@ -12,7 +12,7 @@ export function RouteChangeHandler() {
     setLoading(true);
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1200);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, [pathname]);
